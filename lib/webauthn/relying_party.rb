@@ -59,9 +59,7 @@ module WebAuthn
                   :acceptable_attestation_types,
                   :legacy_u2f_appid
 
-    attr_reader :encoding
-
-    attr_reader :attestation_root_certificates_finders
+    attr_reader :encoding, :attestation_root_certificates_finders
 
     # This is the user-data encoder.
     # Used to decode user input and to encode data provided to the user.
